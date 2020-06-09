@@ -1,37 +1,50 @@
-## Welcome to GitHub Pages
+<!DOCTYPE html>
+<html lang="en">
 
-You can use the [editor on GitHub](https://github.com/prahlad6290/vicky/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="home.css">
+    <title>vicky</title>
+    <script src="home.js"></script>
+</head>
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+<body>
+    <header>
+            <nav class="navbar">
+                <ul>
+                    <a href="home.html">
+                    <img src="19.png" alt="" class="home" title="Home"></a>
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="picture.html" target="next">picture</a></li>
+                    <li><a href="video.html" target="new tab">video</a></li>
+                    <!-- <div class="se"> -->
+                        <a href="https://www.google.com" target="new tab">
+                    <input type="search" class="see" placeholder="search">
+                        </a>
+                    <!-- </div> -->
+                </ul>
+            </nav> 
+        </header>
+    <div class="diver">
+        <img src="6.jpg" alt="">
+    </div>
+    <div class="diver1">
+        <img src="15.jpg.jpg" alt="">
+    </div>
+    <div class="diver2">
+        VICKY
+    </div>
+     <a href="https://www.facebook.com/profile.php?id=100040047588756" target="blank" class="facebook">
+    <img src="12.png" alt="" title="facebook" class="book">
+    </a>
+    <a href="https://instagram.com/vickys_0813?igshid=i2uxvneehjyd" target="new tab" class="instagram">
+        <img src="8.png" alt="" title="instagram" class="insta">
+        </a>
+        <a href="https://vm.tiktok.com/3Q53NU/" target="next" class="tiktok">
+            <img src="13.png" alt="" title="tiktok" class="tik">
+            </a>
+            <button><a href="#" class="bu">Go top</a></button>
+</body>
 
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/prahlad6290/vicky/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+</html>
