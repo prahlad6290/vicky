@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.min.css">
+    <link rel="stylesheet" href="picture.css">
+    <!-- <script src="picture.js"></script> -->
+    <title>vicky</title>
+</head>
+<body>
+    <header>
+      <nav class="navbar">
+          <ul>
+              <a href="home.html">
+              <img src="19.png" alt="" class="home" title="Home"></a>
+              <li><a href="home.html" target="home.html">Home</a></li>
+              <li><a href="picture.html" target="">picture</a></li>
+              <li><a href="video.html" target="blank">video</a></li>
+              <div class="se">
+                  <a href="https://www.google.com" target="new tab">
+              <input type="search" class="se" id="se" placeholder="search">
+                  </a>
+              </div>
+          </ul>
+      </nav> 
+  </header>
+  <script src="https://unpkg.com/swiper/js/swiper.min.js"></script>
+   
+    <div class="swiper-container">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide"><img src="100.jpg" alt="" class="aa"></div>
+          <div class="swiper-slide"><img src="101.jpg" alt="" class="zz"></div>
+          <div class="swiper-slide" ><img src="102.jpg" alt="" class="bb"></div>
+          <div class="swiper-slide" ><img src="103.jpg" alt="" class="cc"></div>
+          <div class="swiper-slide" ><img src="104.jpg" alt="" class="dd"></div>
+          <div class="swiper-slide" ><img src="105.jpg" alt="" class="ee"></div>
+          <div class="swiper-slide" ><img src="106.jpg" alt="" class="ff"></div>
+          <div class="swiper-slide" ><img src="107.jpg" alt="" class="gg"></div>
+          <div class="swiper-slide" ><img src="108.jpg" alt="" class="hh"></div>
+          <div class="swiper-slide" ><img src="109.jpg" alt="" class="ii"></div>
+          <div class="swiper-slide" ><img src="110.jpg" alt="" class="jj"></div>
+        </div>
+        <div class="swiper-pagination"></div>
+    </div>
+    <a href="#"><button>Go top</button></a>
+       <script>
+        var swiper = new Swiper('.swiper-container', {
+         effect: 'coverflow',
+          grabCursor: true,
+          centeredSlides: true,
+          slidesPerView: 'auto',
+          coverflowEffect: {
+            rotate: 20,
+            stretch: 0,
+            depth: 200,
+            modifier: 1,
+            slideShadows : true,
+          },
+          loop: true,
+          pagination: {
+            el: '.swiper-pagination',
+          },
+        });
+      </script>
+</body>
+</html>
